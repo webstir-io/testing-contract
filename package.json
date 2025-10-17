@@ -20,7 +20,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build",
-    "clean": "rm -rf dist schema"
+    "clean": "rm -rf dist schema",
+    "prepare": "npm run build"
   },
   "keywords": [
     "webstir",
