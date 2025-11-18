@@ -2,6 +2,11 @@
 
 TypeScript types and JSON schema defining Webstir’s test manifests, runner events, and summaries. Downstream tooling (CLI, dashboards, custom reporters) consume this package to stay aligned with the official testing contract.
 
+## Status
+
+- Experimental testing contract for the Webstir ecosystem — event and manifest schemas may evolve alongside the runner and host.
+- Use pinned versions and expect breaking changes while the testing story stabilizes.
+
 ## Install
 
 ```ini
@@ -77,6 +82,13 @@ function assertEvent(payload: string) {
   }
 }
 ```
+
+## Community & Support
+
+- Code of Conduct: https://github.com/webstir-io/.github/blob/main/CODE_OF_CONDUCT.md
+- Contributing guidelines: https://github.com/webstir-io/.github/blob/main/CONTRIBUTING.md
+- Security policy and disclosure process: https://github.com/webstir-io/.github/blob/main/SECURITY.md
+- Support expectations and contact channels: https://github.com/webstir-io/.github/blob/main/SUPPORT.md
 
 ## Maintainer Workflow
 
