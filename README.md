@@ -94,11 +94,17 @@ function assertEvent(payload: string) {
 
 ```bash
 npm install
+npm run clean          # remove dist artifacts
 npm run build          # emits dist/index.js, dist/index.d.ts, refreshed schema/
+npm run test
+npm run smoke
+# Release helper (bumps version, pushes tags to trigger release workflow)
+npm run release -- patch
 ```
 
 - Regenerate schema files whenever TypeScript interfaces change.
-- Ensure CI lints, builds, and verifies schema parity before publishing.
+- Ensure CI runs `npm ci`, `npm run clean`, `npm run build`, `npm run test`, and `npm run smoke` before publishing.
+- Publishing targets GitHub Packages and is triggered by the release workflow.
 
 ## License
 
