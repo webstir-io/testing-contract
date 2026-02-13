@@ -1,6 +1,6 @@
 # AGENTS.md (Repo Stub)
 
-This repository follows the org baseline at `../workspace-tools/AGENTS.md`.
+This repository follows the org baseline at `../webstir-workspace/AGENTS.md`.
 
 - Scope: Types and JSON Schema for test manifests and runner events.
 - Start here: `README.md` for exported types and schema usage.
