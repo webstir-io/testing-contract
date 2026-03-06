@@ -1,5 +1,12 @@
 # @webstir-io/testing-contract
 
+> This repository is legacy and no longer the source of truth.
+> Active development has moved to the canonical Webstir monorepo:
+> [webstir-io/webstir](https://github.com/webstir-io/webstir)
+>
+> Package source location in the monorepo:
+> `packages/contracts/testing-contract`
+
 TypeScript types and JSON schema defining Webstir’s test manifests, runner events, and summaries. Downstream tooling (CLI, dashboards, custom reporters) consume this package to stay aligned with the official testing contract.
 
 ## Status
